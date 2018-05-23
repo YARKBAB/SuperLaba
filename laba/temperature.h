@@ -10,6 +10,6 @@ class temperature
 public:
 	temperature();
 	void init(int size);
-	void show();
+	//void show();
 	double mid_temperature(bool b);
 };
