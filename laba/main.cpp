@@ -7,13 +7,14 @@ int main()
 	try
 	{
 		temperature a;
-		a.show();
+		//a.show();
 	}
 	catch (char *err)
 	{
 		std::cout << "Error: " << err << std::endl;
 	}
 
+	system("pause");
 
 	return 0;
 }
